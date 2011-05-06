@@ -1,4 +1,5 @@
 var apimaker = require("apimaker");
+apimaker.enableDebug(true);
 var languages = ["de", "en", "nl", "fi", "fr", "pl", "da", "sv"];
 var root = "http://tupalo.com/";
 var paths = {spots:"/api/easy/v1/spots", spot:"/api/easy/v1/spot", match:"/api/easy/v1/match", widget:"/api/easy/v1/review_widget"};
