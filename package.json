@@ -1,0 +1,20 @@
+{
+  "name"          : "tupalocomapi",
+  "description"   : "a wrapper around the tupalo.com API",
+  "url"           : "https://github.com/franzenzenhofer/tupalocomapi",
+  "keywords"      : ["api", "tupalo", "location"],
+  "author"        : "Franz Enzenhofer <f.enzenhofer@gmail.com>",
+  "contributors"  : [],
+   "licenses": [
+     {
+        "type": "MIT"
+     }
+   ],
+   "dependencies": {
+    "apimaker": "*"
+   }
+,
+  "main"          : "./tupalocomapi.js",
+  "version"       : "0.0.1-0"
+}
+
